@@ -6,9 +6,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Bai Jamjuree", sans-serif;
- 
-   overflow-x: hidden;
-  
+
+  overflow-x: hidden;
 }
 
 .first-container {
@@ -25,6 +24,7 @@ body {
   border-radius: 10px;
 
   border: 3px solid #fff;
+  cursor: pointer;
 }
 
 .second-container {
@@ -41,16 +41,26 @@ body {
 }
 
 .image {
-  width: 300px;
+  width: 280px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+
+  padding-left: 10px;
+  gap: 40px;
+}
+
+.image-dets {
+  margin-top: 1%;
 }
 
 .break {
-  height: 1px;
+  margin: 9px;
+  height: 1.5px;
   background-color: black;
   width: 280px;
+  opacity: 0.5;
+  border-radius: 40%;
+  margin-top: 30px;
 }
 
 .break2 {
@@ -60,27 +70,27 @@ body {
 }
 
 table {
-  width: 95%;
+  width: 97%;
   border-collapse: collapse;
   margin-bottom: 20px;
   padding-left: 10px;
   margin-top: -20px;
   margin: 10px;
-  border: 1px solid rgb(66, 115, 133);
+  border: 1.5px solid rgba(66, 115, 133, 0.36);
   border-radius: 10px !important;
 }
 
 th {
-  background-color: rgb(7, 132, 177);
+  background-color: rgb(178, 214, 249);
   padding: 10px;
   text-align: left;
-  border-bottom: 2px solid rgb(66, 115, 133);
+  border-bottom: 1.5px solid rgba(66, 115, 133, 0.569);
 }
 
 td {
   padding: 10px;
   text-align: left;
-  border-bottom: 1px solid rgb(66, 115, 133);
+  border-bottom: 1px solid rgba(66, 115, 133, 0.665);
 }
 
 .third-container h2 {
@@ -94,6 +104,7 @@ td {
 .languages,
 .interests {
   padding-left: 25px;
+  margin-top: 40px;
 }
 
 .languages ul {
@@ -101,8 +112,8 @@ td {
 }
 
 img {
-  width: 100px;
-  border-radius: 50px;
+  width: 80px;
+  border-radius: 50%;
   margin-top: 10px;
 }
 
@@ -114,7 +125,6 @@ h5 {
   color: rgb(229, 216, 198);
 }
 
-
 .circle1 {
   position: absolute;
   top: 20%;
@@ -123,29 +133,56 @@ h5 {
   width: 700px;
   height: 600px;
   border-radius: 50%;
-  background-color:  rgb(7, 132, 177);
+  background-color: rgb(7, 132, 177);
   z-index: -1;
 }
 
-
 .circle2 {
   position: absolute;
-  bottom: 0%;
+  bottom: -25%;
   right: 2%;
   transform: translate(50%, 50%);
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background-color:  rgb(7, 132, 177);
+  background-color: rgb(7, 132, 177);
   z-index: -1;
 }
 
-
-
 .Alex {
-  font-family: 'Alex Brush', cursive;
+  position: absolute;
+  font-family: "Alex Brush", cursive;
   text-align: right;
   padding-right: 50px;
   font-weight: bold;
   font-size: 18px;
+  color: rgb(2, 43, 58);
+
+  bottom: -49%;
+  right: 5%;
+}
+
+.professional {
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.professional strong {
+  font-weight: bold;
+}
+
+.professional ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.professional li {
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: rgb(2, 43, 58);
 }
