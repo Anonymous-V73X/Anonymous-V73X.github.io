@@ -8,6 +8,8 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
 
   overflow-x: hidden;
+
+
   
 }
 
@@ -25,6 +27,7 @@ body {
 
   border: 3px solid #fff;
   cursor: pointer;
+
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -61,6 +64,10 @@ body {
 
   .first-container {
     background-color: rgb(2, 43, 58) !important;
+  }
+
+  .circle2{
+    display: none!important;
   }
 }
 
