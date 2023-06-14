@@ -25,6 +25,7 @@ body {
 
   border: 3px solid #fff;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (max-width: 768px) {
